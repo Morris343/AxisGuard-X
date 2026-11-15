@@ -4,8 +4,9 @@
 > Built in Python. Runs 100% on your machine. No cloud. No BS.
 
 ![Status](https://img.shields.io/badge/Status-Working-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -13,12 +14,24 @@
 
 AxisGuard X is a lightweight **Endpoint Detection & Response (EDR)** tool I built from scratch.
 
-It watches your PC in real-time for known hacker tools. The second one runs — it screams, shows it on a live dashboard, and lets you **KILL it in one click**.
+Most EDRs cost thousands and run in the cloud. Mine runs locally, watches your processes in real-time, and kills threats the second they appear.
 
-Just like CrowdStrike / SentinelOne... but built by me, in my bedroom.
+## ⚡ Features
 
----
+- **Real-time Process Monitoring** — Watches every process as it starts
+- **Signature Detection** — Flags known malicious tools (Mimikatz, Nmap, etc.)
+- **Auto-Kill** — Instantly terminates threats before they can run
+- **Live Dashboard** — Beautiful Streamlit dashboard with live alerts
+- **JSON Logging** — Every alert + kill is logged to `alerts.json` / `killed.json`
+- **100% Offline** — No data leaves your PC
 
-## ⚡ Live Demo
+## 📸 Dashboard
+![Dashboard](dashboard.png)
 
-**1. Threat Detected:**
+Run the dashboard to see live alerts, killed processes, and system status in your browser.
+
+## 🚀 How To Run
+
+### 1. Install requirements
+```bash
+pip install streamlit psutil
