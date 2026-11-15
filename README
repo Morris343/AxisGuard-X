@@ -1,0 +1,24 @@
+# 🛡️ AxisGuard X
+
+> **Your own personal EDR — Detect. Alert. Kill. Log.**
+> Built in Python. Runs 100% on your machine. No cloud. No BS.
+
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+
+---
+
+## 🔥 What Is This?
+
+AxisGuard X is a lightweight **Endpoint Detection & Response (EDR)** tool I built from scratch.
+
+It watches your PC in real-time for known hacker tools. The second one runs — it screams, shows it on a live dashboard, and lets you **KILL it in one click**.
+
+Just like CrowdStrike / SentinelOne... but built by me, in my bedroom.
+
+---
+
+## ⚡ Live Demo
+
+**1. Threat Detected:**
